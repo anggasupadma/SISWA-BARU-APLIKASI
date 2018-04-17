@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Angga Supadma\AppData\Local\Microsoft\WindowsApps;C:\Users\Angga Supadma\AppData\Roaming\npm;C:\Users\Angga Supadma\AppData\Roaming\Composer\vendor\bin;C:\Users\Angga Supadma\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "latihan1",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-native-scripts": "1.11.1",
+      "jest-expo": "25.0.0",
+      "react-test-renderer": "16.2.0"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+      "start": "react-native-scripts start",
+      "eject": "react-native-scripts eject",
+      "android": "react-native-scripts android",
+      "ios": "react-native-scripts ios",
+      "test": "node node_modules/jest/bin/jest.js"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^25.0.0",
+      "react": "16.2.0",
+      "react-native": "0.52.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find the binary git
+      at ProcessSpawnError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessSpawnError (C:\Program Files (x86)\Yarn\lib\cli.js:201:118)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30237:18)
+      at emitOne (events.js:116:13)
+      at ChildProcess.emit (events.js:211:7)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:196:12)
+      at onErrorNT (internal/child_process.js:372:16)
+      at _combinedTickCallback (internal/process/next_tick.js:138:11)
+      at process._tickCallback (internal/process/next_tick.js:180:9)
